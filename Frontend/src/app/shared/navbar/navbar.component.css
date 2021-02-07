@@ -1,0 +1,21 @@
+.navbar-default {
+  
+  box-shadow: 2px 2px #555555;
+  border-style: solid;
+}
+.nav {
+  height: 60px;
+}
+
+.navbar-default {
+  background-image: url("/assets/img/cool-background.png");
+}
+
+.navbar-toggle {
+  box-shadow: 2px 2px #555555;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: aquamarine;
+}

@@ -1,0 +1,37 @@
+.alert {
+	width: 200vh;
+}
+
+.alert-dismissable {
+	background-color: blue;
+}
+
+.main-content {
+	background-image: url("/assets/img/full-screen-image-3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+	height: 100vh;
+}
+
+.row {
+	margin: auto;
+	padding-top: 100px;
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.title h1 {
+	color: black;
+	font-size: 45px;
+}
+
+.title span {
+	color: seagreen;
+	font-size: 35px;
+}

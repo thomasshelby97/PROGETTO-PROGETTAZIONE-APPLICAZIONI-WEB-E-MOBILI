@@ -1,0 +1,20 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="buttons">
+        <button class="btn btn-primary" (click)="decrease()">-30 min</button>
+        <button class="btn btn-primary" (click)="increase()">+30 min</button>
+      </div>
+        <div class="card border-0" *ngFor="let chart of charts; let i = index">
+          
+          <canvas id="chart{{ i }}"> </canvas>
+        </div>
+        <div class="buttons">
+          <button class="btn btn-primary" (click)="decrease()">-30 min</button>
+          <button class="btn btn-primary" (click)="increase()">+30 min</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+.chartjs-render-monitor {
+  padding-bottom: 10px;
+}
+
+.card {
+  background-image: url("/assets/img/cool-background.png");
+  height: 60vh;
+}
+
+.main-content {
+  background-image: url("/assets/img/cool-background.png");
+
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    height: 60vh;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: aquamarine;
+}
